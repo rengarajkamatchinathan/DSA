@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class BFS
+class NumberOfIslands
 {
     static void bfs(int mat[][],boolean vis[][],int i,int j){
         Queue<Pair> q = new LinkedList<>();
