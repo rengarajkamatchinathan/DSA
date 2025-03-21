@@ -1,43 +1,39 @@
 public class DisjointSetBySize {
-    int par[];
     int size[];
+    int par[];
 
-    DisjointSetBySize(int n){
+    DisjointSetBySize(int n) {
+        size = new int[n];
         par = new int[n];
-        for(int i=0;i<par.length;i++){
+        for (int i = 0; i < size.length; i++) {
+            size[i] = 1;
             par[i] = i;
         }
-        size = new int[n];
-        for(int i=0;i<size.length;i++){
-            size[i] = 1;
-        }
     }
-    
 
-    void unionBySize(int u,int v){
+    int findParent(int x) {
+        if (x == par[x])
+            return x;
+        return par[x] = findParent(par[x]); // Path compression
+    }
+
+    void unionBySize(int u, int v) {
         int ulp_u = findParent(u);
         int ulp_v = findParent(v);
-        if(size[ulp_u]<size[ulp_v]){
-            par[ulp_u]=ulp_v;
-            size[ulp_v]=size[ulp_u]+size[ulp_v];
+
+        if (ulp_u == ulp_v) {
+            return; // Already in the same set
         }
-        else if(size[ulp_u]>size[ulp_v]){
-            par[ulp_v]=ulp_u;
-            size[ulp_u]=size[ulp_u]+size[ulp_v];
-        }
-        else{
-            size[ulp_u]=size[ulp_u]+size[ulp_v];
-            par[ulp_v] = ulp_u;
+
+        if (size[ulp_u] < size[ulp_v]) {
+            par[ulp_u] = ulp_v;   
+            size[ulp_v] += size[ulp_u]; 
+        } else {
+            par[ulp_v] = ulp_u; 
+            size[ulp_u] += size[ulp_v]; 
         }
     }
 
-    int findParent(int n){
-        if(n==par[n]){
-            return n;
-        }
-        return par[n]=findParent(par[n]);
-    }
-    
     public static void main(String[] args) {
         DisjointSetBySize ds = new DisjointSetBySize(8);
         ds.unionBySize(1, 2);
@@ -46,19 +42,13 @@ public class DisjointSetBySize {
         ds.unionBySize(6, 7);
         ds.unionBySize(5, 6);
 
-        if(ds.findParent(3)==ds.findParent(7)){
-            System.out.println("same");
-        }else{
-            System.out.println("not same");
-        }
+        // Checking if 1 and 3 are in the same set
+        System.out.println(ds.findParent(1) == ds.findParent(3)); // Expected: true
 
-        ds.unionBySize(3, 7);
+        // Checking if 4 and 7 are in the same set
+        System.out.println(ds.findParent(4) == ds.findParent(7)); // Expected: true
 
-        if(ds.findParent(3)==ds.findParent(7)){
-            System.out.println("same");
-        }else{
-            System.out.println("not same");
-        }
-
+        // Checking if 1 and 5 are in the same set
+        System.out.println(ds.findParent(1) == ds.findParent(5)); // Expected: false
     }
 }

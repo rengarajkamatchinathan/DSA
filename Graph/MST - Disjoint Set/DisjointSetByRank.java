@@ -17,6 +17,7 @@ public class DisjointSetByRank {
     void unionByRank(int u,int v){
         int ulp_u = findParent(u);
         int ulp_v = findParent(v);
+        if(ulp_u==ulp_v)return;
         if(rank[ulp_u]<rank[ulp_v]){
             par[ulp_u]=ulp_v;
         }
