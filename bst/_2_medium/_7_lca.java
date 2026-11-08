@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 public class _7_lca {
     static Node lca(Node root, Node p, Node q){

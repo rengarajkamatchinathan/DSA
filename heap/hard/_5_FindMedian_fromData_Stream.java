@@ -1,4 +1,3 @@
-package heap.hard;
 
 import java.util.PriorityQueue;
 

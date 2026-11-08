@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 public class _8_construct_bst_preorder {
     static Node construct(int preorder[], int i[], int bound){

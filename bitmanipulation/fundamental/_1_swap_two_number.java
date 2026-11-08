@@ -1,4 +1,3 @@
-package bitmanipulation.fundamental;
 
 public class _1_swap_two_number {
     public static void main(String[] args) {

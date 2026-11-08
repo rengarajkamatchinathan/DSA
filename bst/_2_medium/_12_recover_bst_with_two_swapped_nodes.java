@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 public class _12_recover_bst_with_two_swapped_nodes {
     static Node prev;

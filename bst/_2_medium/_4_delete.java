@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 public class _4_delete {
     static void delete(Node root, int x){

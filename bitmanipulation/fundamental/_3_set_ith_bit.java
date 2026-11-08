@@ -1,4 +1,3 @@
-package bitmanipulation.fundamental;
 
 public class _3_set_ith_bit {    
     public static void main(String[] args) {

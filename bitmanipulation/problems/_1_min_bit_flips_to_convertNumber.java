@@ -1,4 +1,3 @@
-package bitmanipulation.problems;
 
 public class _1_min_bit_flips_to_convertNumber {
     public static void main(String[] args) {

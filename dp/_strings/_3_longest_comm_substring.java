@@ -1,4 +1,3 @@
-package dp._strings;
 
 public class _3_longest_comm_substring {
     static int tab(String s1, String s2){

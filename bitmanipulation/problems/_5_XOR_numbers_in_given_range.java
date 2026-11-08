@@ -1,4 +1,3 @@
-package bitmanipulation.problems;
 
 public class _5_XOR_numbers_in_given_range {
     public static void main(String[] args) {

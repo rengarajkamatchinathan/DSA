@@ -1,4 +1,3 @@
-package bitmanipulation.fundamental;
 
 public class _8_CheckNumber_is_oddoreven {
     public static void main(String[] args) {

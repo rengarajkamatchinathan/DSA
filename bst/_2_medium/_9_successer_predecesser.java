@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 public class _9_successer_predecesser {
     static void successer_inorder(Node root, Node tar){

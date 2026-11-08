@@ -1,4 +1,3 @@
-package trie._medium;
 
 public class _3_MaximumXORofTwoNumbersinArray {
     static class TrieNode {

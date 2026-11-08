@@ -1,4 +1,3 @@
-package bst._1_easy;
 
 class Node{
     int data;

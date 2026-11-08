@@ -1,4 +1,3 @@
-package dp._mcm;
 
 public class _6_partition_arr_for_max_sum {
     static int memo(int i,int k, int arr[]){

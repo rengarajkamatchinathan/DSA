@@ -1,4 +1,3 @@
-package binarytrees._3_hard;
 
 public class _2_lca {
     static Node soln(Node node, int p, int q){

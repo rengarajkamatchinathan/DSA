@@ -1,4 +1,3 @@
-package greedy.easy;
 
 public class _3_lemonade_change {
     static boolean lemonade_change(int bills[]){

@@ -1,4 +1,3 @@
-package graph.mst_disjoint;
 
 import java.util.HashSet;
 import java.util.Set;

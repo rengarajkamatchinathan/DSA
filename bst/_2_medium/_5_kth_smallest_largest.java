@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 public class _5_kth_smallest_largest {
     static int res = -1;

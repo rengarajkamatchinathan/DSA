@@ -1,4 +1,3 @@
-package slidingwindow.medium;
 
 import java.util.*;
 

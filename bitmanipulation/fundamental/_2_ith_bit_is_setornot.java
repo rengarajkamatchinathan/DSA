@@ -1,4 +1,3 @@
-package bitmanipulation.fundamental;
 
 public class _2_ith_bit_is_setornot {
     public static void main(String[] args) {

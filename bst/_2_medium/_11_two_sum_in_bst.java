@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 import java.util.Stack;
 

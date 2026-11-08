@@ -1,4 +1,3 @@
-package slidingwindow.medium;
 
 public class _2_max_consecutive_ones {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package binarytrees._2_medium;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

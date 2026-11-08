@@ -1,4 +1,3 @@
-package dp._mcm;
 
 public class _5_palindrome_partitioning {
     static boolean isPal(int i, int j, String s){

@@ -1,4 +1,3 @@
-package stackandqueue._1_basics;
 
 import java.util.Stack;
 

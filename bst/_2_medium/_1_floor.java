@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 class Node{
     int data;

@@ -1,4 +1,3 @@
-package graph.shortestpath;
 
 import java.util.Arrays;
 

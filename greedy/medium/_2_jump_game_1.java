@@ -1,4 +1,3 @@
-package greedy.medium;
 
 public class _2_jump_game_1 {
     static boolean soln(int jumps[]){

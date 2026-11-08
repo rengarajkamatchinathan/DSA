@@ -1,4 +1,3 @@
-package dp._subsequence;
 
 public class _1_subset_sum_eqtotarget {
     static boolean memo(int ind, int tar, int arr[], boolean dp[][]){

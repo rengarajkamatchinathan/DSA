@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 public class _3_insert_node_in_bst {
     static void insert(int x, Node root){

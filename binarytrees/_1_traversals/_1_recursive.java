@@ -1,4 +1,3 @@
-package binarytrees._1_traversals;
 
 class Node{
     int data;

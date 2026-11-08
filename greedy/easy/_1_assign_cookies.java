@@ -1,5 +1,3 @@
-package greedy.easy;
-
 public class _1_assign_cookies {
     public static void main(String[] args) {
         int[] Student = {1, 2} , Cookie = {1, 2, 3};

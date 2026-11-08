@@ -1,4 +1,3 @@
-package bitmanipulation.theory;
 
 public class _1_binary_conversion {
     static String dectobin(int num){

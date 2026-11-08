@@ -1,4 +1,3 @@
-package dp._mcm;
 
 import java.util.ArrayList;
 import java.util.Arrays;

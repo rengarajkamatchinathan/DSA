@@ -1,4 +1,3 @@
-package stackandqueue._3_monotonic_stack;
 
 public class _6_sum_of_subarray_minimum {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package bitmanipulation.fundamental;
 
 public class _9_count_set_bits {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package binarytrees._2_medium;
 
 public class _5_check_if_identical_tree {
     static boolean check(Node node1, Node node2){

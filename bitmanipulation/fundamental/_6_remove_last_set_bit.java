@@ -1,4 +1,3 @@
-package bitmanipulation.fundamental;
 
 public class _6_remove_last_set_bit {
     public static void main(String[] args) {

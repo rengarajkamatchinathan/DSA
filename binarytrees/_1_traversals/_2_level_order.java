@@ -1,4 +1,3 @@
-package binarytrees._1_traversals;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

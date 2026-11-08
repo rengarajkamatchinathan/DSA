@@ -1,4 +1,3 @@
-package graph.mst_disjoint;
 
 import java.util.ArrayList;
 import java.util.List;

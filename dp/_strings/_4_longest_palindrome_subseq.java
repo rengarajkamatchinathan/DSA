@@ -1,4 +1,3 @@
-package dp._strings;
 
 public class _4_longest_palindrome_subseq {
     static int tab(String s1, String s2){

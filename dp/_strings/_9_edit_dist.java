@@ -1,4 +1,3 @@
-package dp._strings;
 
 public class _9_edit_dist {
     static int memo(int i, int j, String start, String target){

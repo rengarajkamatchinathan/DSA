@@ -1,4 +1,3 @@
-package dp._1D_arr;
 
 import java.util.Arrays;
 

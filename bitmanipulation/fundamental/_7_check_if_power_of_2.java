@@ -1,4 +1,3 @@
-package bitmanipulation.fundamental;
 
 public class _7_check_if_power_of_2 {
     public static void main(String[] args) {

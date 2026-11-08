@@ -1,4 +1,3 @@
-package binarytrees._3_hard;
 
 public class _7_count_nos_nodes {
     static int soln(Node node){

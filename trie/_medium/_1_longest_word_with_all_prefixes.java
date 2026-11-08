@@ -1,4 +1,3 @@
-package trie._medium;
 
 class TrieNode{
     TrieNode[] childs;

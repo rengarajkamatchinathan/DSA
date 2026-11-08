@@ -1,4 +1,3 @@
-package binarytrees._3_hard;
 
 import java.util.ArrayList;
 import java.util.HashMap;

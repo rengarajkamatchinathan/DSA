@@ -1,4 +1,3 @@
-package stackandqueue._3_monotonic_stack;
 
 import java.util.Arrays;
 import java.util.Stack;

@@ -1,4 +1,3 @@
-package graph.shortestpath;
 
 public class _11_floyd_warshall {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package binarytrees._3_hard;
 
 public class _4_children_sum_property {
     static void soln(Node node){

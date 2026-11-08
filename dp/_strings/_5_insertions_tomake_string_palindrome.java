@@ -1,4 +1,3 @@
-package dp._strings;
 
 public class _5_insertions_tomake_string_palindrome {
     static int tab(String s1, String s2){

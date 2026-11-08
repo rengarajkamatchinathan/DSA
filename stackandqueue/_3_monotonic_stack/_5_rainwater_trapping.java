@@ -1,4 +1,3 @@
-package stackandqueue._3_monotonic_stack;
 
 public class _5_rainwater_trapping {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package binarytrees._2_medium;
 
 public class _12_symmety_bts {
     static boolean check(Node node1, Node node2){

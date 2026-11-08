@@ -1,4 +1,3 @@
-package trie._medium;
 
 public class _2_Number_of_distinct_substrings_in_string {
     static class TrieNode {

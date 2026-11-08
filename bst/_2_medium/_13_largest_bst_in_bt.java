@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 class Pair{
     int size;

@@ -1,4 +1,3 @@
-package greedy.medium;
 
 import java.util.Arrays;
 

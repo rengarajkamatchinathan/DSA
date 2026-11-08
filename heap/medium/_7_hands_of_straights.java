@@ -1,4 +1,3 @@
-package heap.medium;
 
 import java.util.TreeMap;
 

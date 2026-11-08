@@ -1,4 +1,3 @@
-package dp._squares;
 
 public class _2_square_submatrices {     
     public static void main(String[] args) {

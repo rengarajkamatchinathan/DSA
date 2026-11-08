@@ -1,4 +1,3 @@
-package dp._squares;
 
 import java.util.Stack;
 

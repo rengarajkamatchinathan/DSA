@@ -1,4 +1,3 @@
-package bst._2_medium;
 
 public class _6_check_if_bst {
     //in each root node maintain min and max range.

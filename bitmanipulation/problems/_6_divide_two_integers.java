@@ -1,4 +1,3 @@
-package bitmanipulation.problems;
 
 public class _6_divide_two_integers {
     public static void main(String[] args) {

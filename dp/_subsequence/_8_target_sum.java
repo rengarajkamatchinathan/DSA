@@ -1,4 +1,3 @@
-package dp._subsequence;
 
 public class _8_target_sum {
     public static void main(String[] args) {

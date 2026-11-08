@@ -1,4 +1,3 @@
-package dp._strings;
 
 public class _6_min_ins_or_del_toconvert_a_to_b {
     static int tab(String s1, String s2){

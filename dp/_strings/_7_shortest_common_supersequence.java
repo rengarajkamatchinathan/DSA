@@ -1,4 +1,3 @@
-package dp._strings;
 
 import java.util.Arrays;
 

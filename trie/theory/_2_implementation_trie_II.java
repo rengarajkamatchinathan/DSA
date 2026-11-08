@@ -1,4 +1,3 @@
-package trie.theory;
 
 class TrieNode{
     TrieNode[] childs;

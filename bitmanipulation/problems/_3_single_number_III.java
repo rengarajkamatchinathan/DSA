@@ -1,4 +1,3 @@
-package bitmanipulation.problems;
 
 public class _3_single_number_III {
     public static void main(String[] args) {

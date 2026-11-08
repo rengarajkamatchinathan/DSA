@@ -1,4 +1,3 @@
-package dp._stocks;
 
 public class _1_best_time_to_buy_sell_I {
     public static void main(String[] args) {

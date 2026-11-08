@@ -1,4 +1,3 @@
-package binarytrees._2_medium;
 
 
 class Node{

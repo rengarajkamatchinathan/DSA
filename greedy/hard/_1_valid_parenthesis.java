@@ -1,4 +1,3 @@
-package greedy.hard;
 
 public class _1_valid_parenthesis {
     static boolean check(String s){
